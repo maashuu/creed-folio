@@ -47,3 +47,11 @@ Please ask questions or suggest ideas through [Issues] or [Discussions].
 
 - Start by cloning the repo:  
 git clone https://github.com/maashuu/CREED.git
+- Make your changes locally.
+- Commit with a clear message.
+- Push and open a pull request.
+
+---
+
+**This repository marks the beginning of a great journey for our club. Let’s showcase our achievements, share our stories, and learn together!**
+
