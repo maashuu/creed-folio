@@ -46,4 +46,4 @@ Please ask questions or suggest ideas through [Issues] or [Discussions].
 ## 🌟 Let’s Get Started
 
 - Start by cloning the repo:  
-git clone 
+git clone https://github.com/maashuu/CREED.git
