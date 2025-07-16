@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #eee9ff;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: block;
+  gap: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-placeholder {
+  background-color: #cfc6ff;
+  border-radius: 10px;
+}
+
+.large {
+  width: 200px;
+  height: 200px;
+}
+
+.medium {
+  width: 120px;
+  height: 90px;
+}
+
+.small {
+  width: 80px;
+  height: 70px;
+}
+
+.line {
+  background-color: #d2ceff;
+  height: 12px;
+  border-radius: 6px;
+  margin: 6px 0;
+}
+
+.short { width: 50px; }
+.medium { width: 120px; }
+.long { width: 200px; }
+
+.btn,
+.btn-outline,
+.btn-dark {
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn {
+  background: #2c2a4a;
+  color: white;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #2c2a4a;
+  color: #2c2a4a;
+}
+
+.btn-dark {
+  background: #433f6b;
+  color: white;
+}
+
+.portfolio-images, .testimonial-list {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.testimonial {
+  background-color: #ece7ff;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.stars {
+  width: 60px;
+  height: 14px;
+  background: #b7aeff;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.feature-box {
+  background: #f1eeff;
+  height: 46px;
+  border-radius: 8px;
+}
